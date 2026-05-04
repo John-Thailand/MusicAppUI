@@ -30,6 +30,9 @@ fun Home() {
     // 'T': ["Top Rated"]
     val grouped = listOf<String>("New Release", "Favorites", "Top Rated").groupBy { it[0] }
 
+    // LazyColumn / LazyRow
+    // 画面に見えている分だけ描画するので処理が軽くなる
+    // スクロールに応じて「必要な分だけ生成・破棄する」
     LazyColumn {
         grouped.forEach {
             stickyHeader {

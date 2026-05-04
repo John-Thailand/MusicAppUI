@@ -182,7 +182,7 @@ fun Navigation(navController: NavController, viewModel: MainViewModel, pd: Paddi
             Home()
         }
         composable(Screen.BottomScreen.Browse.bRoute) {
-            // TODO Add Browse Screen
+            Browse()
         }
         composable(Screen.BottomScreen.Library.bRoute) {
             // TODO Add Library Screen
