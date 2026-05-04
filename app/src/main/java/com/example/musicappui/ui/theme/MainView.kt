@@ -179,7 +179,7 @@ fun Navigation(navController: NavController, viewModel: MainViewModel, pd: Paddi
         modifier = Modifier.padding(pd)
     ) {
         composable(Screen.BottomScreen.Home.bRoute) {
-            // TODO Add Home Screen
+            Home()
         }
         composable(Screen.BottomScreen.Browse.bRoute) {
             // TODO Add Browse Screen
